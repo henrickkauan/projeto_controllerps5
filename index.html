@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Playstation Store</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img width="100" src="img/logoplaystation.png" alt="logo_playstation">
+            <nav>
+                <ul id="menu_list">
+                    <li class="nav_li"><a href="#">Consoles</a></li>
+                    <li class="nav_li"><a href="#">Acessórios</a></li>
+                    <li class="nav_li"><a href="#">Controles</a></li>
+                    <li class="nav_li"><a href="#">Outros</a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.png" alt="botao_menu" class="menu_icon" onclick="showMenu()">
+        </div>
+
+        <div class="container_two">
+            <div class="coluna_1">
+                <h2>PS5 <br> Spider Control</h2>
+                <h3>Wireless Controller for PlayStation</h3>
+                <p>Controle Original</p>
+                <h4>R$ 222,50</h4>
+                <button>Comprar agora</button>
+            </div>
+
+            <div class="coluna_2">
+                <img src="img/controleps5.png" alt="controle_ps5">
+                <div class="color_box"></div>
+                <button>
+                    <img src="img/iconadd.png" alt="icone_adicionar">
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        const menulist = document.getElementById("menu_list");
+        menulist.style.maxHeight = "0px";
+
+        function showMenu () {
+            if(menulist.style.maxHeight == "0px"){
+                menulist.style.maxHeight = "150px";
+            }else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>

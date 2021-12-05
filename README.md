@@ -1,6 +1,6 @@
 # Projeto - Controller PS5 
 <h2> 💡 O que é isso ?</h2>
-  <h4>"Desenvolvido com HTML5 e CSS3 apenas para treinamento pessoal"</h4>
+  <h3>"Desenvolvido com HTML5 e CSS3 apenas para treinamento pessoal"</h3>
 <div>
   <h2> 🔍 Dá uma olhada:</h2>
   <img src="https://cdn.discordapp.com/attachments/897262817776902168/912147616098316288/Screenshot_1.png" />
